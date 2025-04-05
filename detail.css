@@ -46,6 +46,10 @@ header {
     flex-direction: column;
 }
 
+.grid-data h1{
+    margin-left: 20px;
+}
+
 .grid-data-detils {
     display: flex;
     gap: 100px;
@@ -72,13 +76,17 @@ header {
 
     .grid-contain img {
         width: 100%;
-        max-width: 100%;
+        max-width: 80%;
     }
 
     .grid-data-detils {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        margin-left: 20px;
+    }
+
+    .grid-data h1{
         margin-left: 20px;
     }
 }
